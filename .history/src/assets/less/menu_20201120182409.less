@@ -1,0 +1,44 @@
+.menu {
+    .content {
+        width: 100%;
+        margin-top: 100px;
+        background-color: skyblue;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        /deep/ .van-search {
+            background-color: transparent;
+            padding: 0;
+
+            /deep/ .van-search__content {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+    }
+
+    .pro-content {
+        overflow: hidden;
+
+        .pro-sidebar {
+            overflow: hidden;
+            height: 100%;
+            background-color: #ffffff;
+            float: left;
+
+            /deep/ .van-sidebar-item {
+                text-align: center;
+            }
+
+            /deep/ .van-sidebar {
+                height: 100%;
+            }
+        }
+
+        .product-rec {
+            padding: 10px;
+            float: left;
+        }
+
+    }
+}

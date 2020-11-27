@@ -1,0 +1,56 @@
+.home {
+    img {
+        width: 100%;
+        display: block;
+    }
+
+
+    .banner {
+        position: relative;
+        height: 230px;
+
+        .van-swipe-item {
+            img {
+                height: 230px;
+            }
+        }
+    }
+
+    .custom-indicator {
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        height: 10px;
+
+        .item {
+            width: 10px;
+            height: 10px;
+            background: #dce0e7;
+            float: left;
+            margin: 0px 5px;
+            border-radius: 10px;
+            transition: all .3s;
+        }
+
+        .item-active {
+            width: 20px;
+            background-color: #456be6;
+        }
+    }
+    .title-text{
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+    .main-content{
+        padding: 0px 10px 10px;
+        position: relative;
+        .content-box{
+            position: absolute;
+            top: -30px;
+            left: 0;
+            width: 100%;
+            background: skyblue;
+        }
+    }
+}
