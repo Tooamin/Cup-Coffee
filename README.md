@@ -1,4 +1,5 @@
 # ruixin
+这是一个线上咖啡商城项目
 
 ## Project setup
 ```
